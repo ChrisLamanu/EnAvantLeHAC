@@ -1,0 +1,72 @@
+/*  */
+/* Assign font, font-color && bg-color to the body */
+/*  */
+body {
+    font-family: 'Heebo', sans-serif;
+    color: #091c3e;
+    background-color: #e0e0e0;
+}
+
+/*  */
+/* Title size && table head text size*/
+/*  */
+.titleSize {
+    font-size: 1.8rem;
+}
+.textResize {
+    font-size: 0.7rem !important;
+}
+
+/*  */
+/* Icons colors && size */
+/*  */
+.fixCircle {
+    font-size: 0.8rem !important;
+}
+.logoFix {
+    width: 2rem;
+    margin-right: 0.4rem;
+}
+.greyColor {
+    color: #ababab;
+    margin-left: 0.4rem;
+}
+.greenColor {
+    color: #21cd36;
+    margin-left: 0.4rem;
+}
+.redColor {
+    color: #ec2024;
+    margin-left: 0.4rem;
+}
+
+/*  */
+/* Row Colors */
+/*  */
+.blueRowColor {
+    background-color: #091c3e;
+    color: white;
+}
+.greyRowTop {
+    background-color: #e6e6e6;
+}
+.greyRowBot {
+    background-color: #b3b3b3;
+}
+.greyRowBot_b {
+    background-color: #808080;
+}
+
+/*  */
+/* Override border */
+/*  */
+tbody tr{
+    border-bottom: 2px solid #ababab !important;
+}
+
+/*  */
+/* target && align the second col */
+/*  */
+tbody tr td:nth-child(2) {
+    text-align: initial;
+}
